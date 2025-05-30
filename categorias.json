@@ -1,0 +1,73 @@
+{
+  "cursos_clarissa": [
+    "pg *resumov"
+  ],
+  "roupas": [
+    "cea pan 223 ecpc",
+    "cea"
+  ],
+  "farmacia": [
+    "pague menos",
+    "drogasil"
+  ],
+  "pagamento_fatura": [
+    "pagamento recebido",
+    "felipe galdino pinheiro"
+  ],
+  "dentista": [
+    "wires othon de souza"
+  ],
+  "compras_online": [
+    "mercadolivre*infonylo",
+    "mercadolivre"
+  ],
+  "anuidade_cartao": [
+    "estorno nubank ultravioleta",
+    "nubank ultravioleta"
+  ],
+  "conta_agua": [
+    "aguas cuiaba*aguas igu",
+    "aguas cuiaba"
+  ],
+  "conta_luz": [
+    "bmb*energisa",
+    "energisa",
+    "cobranca energisa"
+  ],
+  "streamming_assinaturas": [
+    "ebn *spotify",
+    "netflix.com",
+    "google one"
+  ],
+  "alimentacao": [
+    "victoriacasado",
+    "lojas americanas",
+    "daniel bezerra de souza",
+    "matteogelatocriat",
+    "sesc arsenal",
+    "sushi box"
+  ],
+  "loterias": [
+    "loterias caixa"
+  ],
+  "mercado": [
+    "supermercado big lar"
+  ],
+  "depilacao": [
+    "espacolaser.*espacolas",
+    "espaco ice laser"
+  ],
+  "conta_internet": [
+    "claro p*fatura claro",
+    "conta vivo"
+  ],
+  "cursos_felipe": [
+    "htm*gravacao aula m"
+  ],
+  "transporte": [
+    "ancar"
+  ],
+  "cigarro": [
+    "convenienciadoboa"
+  ]
+}
