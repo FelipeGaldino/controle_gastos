@@ -1,54 +1,25 @@
-date,title,amount,categoria
-2025-04-30,Htm*Gravacao Aula M,57.0,cursos_felipe
-2025-04-28,Cea Pan 223 Ecpc - Parcela 2/2,53.99,roupas
-2025-04-28,Pague Menos - Parcela 2/2,52.84,farmacia
-2025-04-28,Pagamento recebido,-7587.98,pagamento_fatura
-2025-04-28,Desconto Antecipação Mercadolivre*Infonylo,-0.56,compras_online
-2025-04-28,Estorno Nubank Ultravioleta,-49.0,anuidade_cartao
-2025-04-28,Desconto Antecipação Cea Pan 223 Ecpc,-0.45,roupas
-2025-04-28,Aguas Cuiaba*Aguas Igu - Parcela 6/6,21.62,conta_agua
-2025-04-28,Desconto Antecipação Aguas Cuiaba*Aguas Igu,-0.18,conta_agua
-2025-04-28,Bmb*Energisa - Parcela 6/6,163.6,conta_luz
-2025-04-28,Mercadolivre*Infonylo - Parcela 8/8,11.25,compras_online
-2025-04-28,Mercadolivre*Infonylo - Parcela 6/8,11.25,compras_online
-2025-04-28,Mercadolivre*Infonylo - Parcela 7/8,11.25,compras_online
-2025-04-28,Desconto Antecipação Pague Menos,-0.44,farmacia
-2025-04-28,Desconto Antecipação Bmb*Energisa,-1.37,conta_luz
-2025-04-28,Desconto Antecipação Aguas Cuiaba*Aguas Igu,-1.73,conta_agua
-2025-04-28,Aguas Cuiaba*Aguas Igu - Parcela 9/10,20.89,conta_agua
-2025-04-28,Aguas Cuiaba*Aguas Igu - Parcela 8/10,20.89,conta_agua
-2025-04-28,Aguas Cuiaba*Aguas Igu - Parcela 7/10,20.89,conta_agua
-2025-04-28,Pagamento recebido,-404.63,pagamento_fatura
-2025-04-28,Aguas Cuiaba*Aguas Igu - Parcela 10/10,20.89,conta_agua
-2025-04-16,Ebn *Spotify,27.9,streamming_assinaturas
-2025-04-14,Pagamento recebido,-15.0,pagamento_fatura
-2025-04-14,Daniel Bezerra de Souza,43.48,alimentacao
-2025-04-12,FELIPE GALDINO PINHEIRO,5852.87,pagamento_fatura
-2025-04-12,Convenienciadoboa,14.0,cigarro
-2025-04-12,Loterias CAIXA,25.83,loterias
-2025-04-12,Matteogelatocriat,34.0,alimentacao
-2025-04-12,Sesc Arsenal,72.6,alimentacao
-2025-04-11,Nubank Ultravioleta,49.0,anuidade_cartao
-2025-04-11,Supermercado Big Lar,69.06,mercado
-2025-04-11,Pague Menos - Parcela 1/2,52.85,farmacia
-2025-04-11,Victoriacasado,15.53,alimentacao
-2025-04-10,Espacolaser.*Espacolas,153.47,depilacao
-2025-04-09,Aguas Cuiaba*Aguas Igu,68.37,conta_agua
-2025-04-09,Cea Pan 223 Ecpc - Parcela 1/2,53.99,roupas
-2025-04-09,Claro P*Fatura Claro,54.04,conta_internet
-2025-04-09,Espaco Ice Laser,79.99,depilacao
-2025-04-09,Conta Vivo,128.86,conta_internet
-2025-04-09,Ancar,14.0,transporte
-2025-04-09,Sushi Box,93.78,alimentacao
-2025-04-09,Cobranca Energisa,111.24,conta_luz
-2025-04-09,Lojas Americanas,60.94,alimentacao
-2025-04-05,Wires Othon de Souza,180.0,dentista
-2025-04-05,Netflix.Com,20.9,streamming_assinaturas
-2025-04-04,Drogasil - Parcela 3/3,51.1,farmacia
-2025-04-04,Aguas Cuiaba*Aguas Igu - Parcela 5/6,21.62,conta_agua
-2025-04-04,Bmb*Energisa - Parcela 5/6,163.6,conta_luz
-2025-04-04,Drogasil - Parcela 3/3,32.98,farmacia
-2025-04-04,Google One,9.99,streamming_assinaturas
-2025-04-04,Mercadolivre*Infonylo - Parcela 5/8,11.25,compras_online
-2025-04-04,Aguas Cuiaba*Aguas Igu - Parcela 6/10,20.89,conta_agua
-2025-04-04,Pg *Resumov - Parcela 12/12,24.82,cursos_clarissa
+Data de Compra,Nome no Cartão,Final do Cartão,Categoria,Descrição,Parcela,Valor (em US$),Cotação (em R$),Valor (em R$),categoria
+09/06/2024,FELIPE GALDINO,1787,Departamento / Desconto,MAGALU*MAGAZINELUIZA,9/10,0,0,195.9,compras_online
+27/07/2024,FELIPE GALDINO,2989,Supermercados / Mercearia / Padarias / Lojas de Conveniência,AME COMERCIO,8/12,0,0,23.91,despesa_casa
+30/11/2024,FELIPE GALDINO,2989,Especialidade varejo,FERNANDOCORREA,4/4,0,0,68.24,not
+17/12/2024,FELIPE GALDINO,2989,Assistência médica e odontológica,DROGASIL 1455,3/3,0,0,40.42,farmacia
+21/12/2024,FELIPE GALDINO,2989,Especialidade varejo,FILIAL SHOPPING PANTAN,3/3,0,0,49.96,alimentacao
+26/12/2024,FELIPE GALDINO,2989,Relacionados a Automotivo,RENAN AUGUSTO TIBALDI,3/3,0,0,90.0,transporte
+03/01/2025,FELIPE GALDINO,2989,Materiais de construção para casa,GUAPORE VIDROS,2/2,0,0,150.0,despesa_casa
+04/01/2025,FELIPE GALDINO,2989,Especialidade varejo,FERNANDOCORREA,2/4,0,0,65.49,not
+23/01/2025,FELIPE GALDINO,2989,Assistência médica e odontológica,FARMACIA PAGUE MENOS,2/2,0,0,63.99,farmacia
+23/01/2025,FELIPE GALDINO,2989,Serviços pessoais,PG *TON GABRIEL HENR,2/2,0,0,277.5,not
+23/01/2025,FELIPE GALDINO,2989,Assistência médica e odontológica,DROGASIL 3174,2/3,0,0,96.44,farmacia
+23/01/2025,FELIPE GALDINO,2989,Especialidade varejo,FERNANDOCORREA,2/3,0,0,65.84,not
+23/01/2025,FELIPE GALDINO,2989,Materiais de construção para casa,REI TINTAS CUIABA,2/3,0,0,139.66,despesa_casa
+05/02/2025,FELIPE GALDINO,2989,-,Pag Entrada parcel fatura,Única,0,0,-1000.0,not
+05/02/2025,FELIPE GALDINO,2989,-,Credito Refinanciamento,Única,0,0,-2585.22,not
+05/02/2025,FELIPE GALDINO,2989,Varejos Diversos,Parcelamento de Fatura,1/2,0,0,1498.36,not
+07/02/2025,FELIPE GALDINO,2989,Vestuário / Roupas,ROSILENEBENEDITA,Única,0,0,20.0,not
+07/02/2025,FELIPE GALDINO,2989,Supermercados / Mercearia / Padarias / Lojas de Conveniência,GREGORY MERCADO E DIST,Única,0,0,18.0,alimentacao
+08/02/2025,FELIPE GALDINO,2989,Supermercados / Mercearia / Padarias / Lojas de Conveniência,ESQUADRAO DO SUPLEMENT,1/3,0,0,67.54,mercado
+08/02/2025,FELIPE GALDINO,2989,Especialidade varejo,FERNANDOCORREA,1/4,0,0,67.54,not
+11/02/2025,FELIPE GALDINO,2989,Assistência médica e odontológica,DROGASIL 1455,Única,0,0,13.01,farmacia
+11/02/2025,FELIPE GALDINO,2989,Supermercados / Mercearia / Padarias / Lojas de Conveniência,COMPER MT 143,Única,0,0,9.99,mercado
+13/12/2024,FELIPE GALDINO,8804,Vestuário / Roupas,MERCADOLIVRE*3PRODUTO,3/4,0,0,107.07,compras_online
+03/01/2025,FELIPE GALDINO,8804,Elétrico,MERCADOLIVRE*PROCESSA,2/7,0,0,32.97,compras_online

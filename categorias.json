@@ -1,43 +1,67 @@
 {
   "cursos_clarissa": [
-    "pg *resumov"
+    "pg resumov",
+    "pg prof ferreto",
+    "estudacom",
+    "footwear carvalho"
   ],
-  "roupas": [
-    "cea pan 223 ecpc",
-    "cea"
+  "roupa": [
+    "cea pan ecpc",
+    "cea",
+    "lojas avenida filial",
+    "lojas renner fl"
   ],
   "farmacia": [
     "pague menos",
-    "drogasil"
+    "drogasil",
+    "drogaria sao paulo",
+    "farma facil",
+    "drogaria sao paulo s a",
+    "farmacia pague menos"
   ],
   "pagamento_fatura": [
     "pagamento recebido",
     "felipe galdino pinheiro"
   ],
   "dentista": [
-    "wires othon de souza"
+    "wires othon de souza",
+    "irhpa odontologico",
+    "betoni odontologia"
   ],
   "compras_online": [
-    "mercadolivre*infonylo",
-    "mercadolivre"
+    "mercadolivre infonylo",
+    "mercadolivre",
+    "kabum",
+    "mercadolivre processa",
+    "magalu magazineluiza",
+    "mercadolivre produto",
+    "mercadolivre starmaxe",
+    "mercadolivre vbaacess"
   ],
   "anuidade_cartao": [
     "estorno nubank ultravioleta",
-    "nubank ultravioleta"
+    "nubank ultravioleta",
+    "anuidade diferenciada"
   ],
   "conta_agua": [
-    "aguas cuiaba*aguas igu",
+    "aguas cuiaba aguas igu",
     "aguas cuiaba"
   ],
   "conta_luz": [
-    "bmb*energisa",
+    "bmb energisa",
     "energisa",
     "cobranca energisa"
   ],
-  "streamming_assinaturas": [
-    "ebn *spotify",
-    "netflix.com",
-    "google one"
+  "streamming_assinatura": [
+    "ebn spotify",
+    "netflix com",
+    "google one",
+    "dm spotify",
+    "openai",
+    "iof de openai",
+    "ebn spotify",
+    "pg toro investimentos",
+    "ebn crunchyroll"
   ],
   "alimentacao": [
     "victoriacasado",
@@ -45,29 +69,191 @@
     "daniel bezerra de souza",
     "matteogelatocriat",
     "sesc arsenal",
-    "sushi box"
+    "sushi box",
+    "cappta bolos artesana",
+    "cafeteria",
+    "cappta marollo restau",
+    "subway galeria cuiaba",
+    "zapatta",
+    "r de p r ltda mt",
+    "padaria do moinho",
+    "zig dam gastrobar",
+    "serra americas",
+    "chopp shelby quiosque",
+    "planet park diversoes",
+    "espeto do boa",
+    "sympla l lu c vg",
+    "zp realizashowse",
+    "ifd rock amor e pizza",
+    "eversonaugusto",
+    "mercadolivre peddobra",
+    "caminhao do hulk burgu",
+    "castanhaf",
+    "restaurante trudys",
+    "japidinho",
+    "vsk comercio de alime",
+    "gregory mercado e dist",
+    "jessica castro confeit",
+    "espeto do duda",
+    "chocolates finos cuiab",
+    "maraffa gastro e pub",
+    "hulk burguer",
+    "mp biscoitoslope",
+    "mikalanches",
+    "the best acai cuiaba b",
+    "cappta malcom",
+    "moreninhasorvetes",
+    "buffet rosane miranda",
+    "sesamo gelateria",
+    "pamonharia goiana",
+    "du chef mustafa",
+    "zig caza da pizza",
+    "padaria america",
+    "filial shopping pantan",
+    "japidinho sa",
+    "bolo de arroz"
   ],
-  "loterias": [
-    "loterias caixa"
+  "loteria": [
+    "loterias caixa",
+    "pix do milhao premios e e books"
   ],
   "mercado": [
-    "supermercado big lar"
+    "supermercado big lar",
+    "comper mt",
+    "assai atacadista lj",
+    "sendas distribuidora s",
+    "comper",
+    "bull beef casa de carn",
+    "bl fitness",
+    "eskimosorvetes",
+    "esquadrao do suplement",
+    "mercado sayonara",
+    "pp growthsuppl",
+    "bombeef"
   ],
   "depilacao": [
-    "espacolaser.*espacolas",
-    "espaco ice laser"
+    "espacolaser espacolas",
+    "espaco ice laser",
+    "espacolaser p espacol"
   ],
   "conta_internet": [
-    "claro p*fatura claro",
-    "conta vivo"
+    "claro p fatura claro",
+    "conta vivo",
+    "net pgt fatura claro"
   ],
   "cursos_felipe": [
-    "htm*gravacao aula m"
+    "htm gravacao aula m"
   ],
   "transporte": [
-    "ancar"
+    "ancar",
+    "uber uber trip help u",
+    "uber trip",
+    "matrix postos de combu",
+    "asteroide te asteroide",
+    "loja do borracheiro",
+    "renan augusto tibaldi",
+    "shopping park"
   ],
   "cigarro": [
-    "convenienciadoboa"
+    "convenienciadoboa",
+    "mik distribuidora de b",
+    "mp keish"
+  ],
+  "transferencia": [
+    "eliane batista almeida moreira",
+    "rafael fracasso gomes",
+    "bruno galdino pinheiro",
+    "felipe galdino pinheiro 03599555176"
+  ],
+  "despesa_casa": [
+    "dias climatizacao",
+    "mp centerkeys",
+    "ame comercio",
+    "lucindo de moraes e souza kayaby",
+    "zp montagem de moveis",
+    "comercial multicasa",
+    "rei tintas cuiaba",
+    "castelli materiais par",
+    "comercial multicasa lt",
+    "lavt vupt lavanderia",
+    "decorcolorscuiaba",
+    "poesy aviamentos",
+    "guapore vidros",
+    "uniprinter grafica ex",
+    "multi padrao"
+  ],
+  "not": [
+    "estorno de juros da divida encerrada",
+    "encerramento de divida",
+    "renegociacao de pendencias fevereiro",
+    "fernandocorrea",
+    "rdsaude online",
+    "comercialitalia",
+    "posto realeza",
+    "amazonia petroleo",
+    "sidne fernando marcus de oliveira",
+    "luiz dias",
+    "sos servicos",
+    "amazonia",
+    "claro",
+    "real presentes",
+    "pg ton wires othon",
+    "s v comercio de presen",
+    "boleto",
+    "juros de divida encerrada",
+    "gallo assai",
+    "pbadministradora",
+    "marcileisouza",
+    "atlantica",
+    "cpa",
+    "memt",
+    "posto conti comigo",
+    "posto estacao",
+    "b d d f ltda",
+    "aroldoborges",
+    "agroplantar representa",
+    "inclusao de pagamento",
+    "cappta diarth comerci",
+    "mp studiodobem",
+    "mizael polletti da sil",
+    "luciana midori sasai",
+    "el elion comercio de c",
+    "elainecaroline",
+    "neilamarcione",
+    "parcelamento de fatura",
+    "b e gas e agua",
+    "pp moda intima",
+    "vmbatacadistade",
+    "c c v de freitas epp",
+    "distribuidora e bar go",
+    "estorno tarifa",
+    "aguia",
+    "pg ton gabriel henr",
+    "posto morada carmindo",
+    "rosilenebenedita",
+    "pag entrada parcel fatura",
+    "credito refinanciamento"
+  ],
+  "aluguel": [
+    "elizete silva ribeiro"
+  ],
+  "beleza": [
+    "solucao cosmeticos",
+    "touti"
+  ],
+  "correios": [
+    "brasil postal"
+  ],
+  "academia": [
+    "ricardo esportes"
+  ],
+  "pet": [
+    "petz fernando correa"
+  ],
+  "transportes": [
+    "porto motos"
+  ],
+  "felipe_pessoal": [
+    "inovarrelojoaria"
   ]
 }
