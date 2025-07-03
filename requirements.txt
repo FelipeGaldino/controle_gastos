@@ -1,4 +1,0 @@
-unidecode
-pandas
-
-pip install -q -U google-genai
