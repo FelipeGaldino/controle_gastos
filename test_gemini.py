@@ -73,15 +73,16 @@ def extract(texto):
 
         if tipo == "saida":
             matches = re.findall(
-                r"<categoria_saida>(.*?)</categoria_saida>\s*<valor>(.*?)</valor>",
+                r"<categoria_saida>(.*?)</categoria_saida>\s*<valor>(.*?)</valor>\s*<parcelas>(.*?)</parcelas>",
                 bloco,
                 re.IGNORECASE | re.DOTALL
             )
-            for cat, val in matches:
+            for cat, val, par in matches:
                 resultado.append({
                     "tipo": tipo,
                     "categoria": cat.strip(),
-                    "valor": val.strip()
+                    "valor": val.strip(),
+                    "parcela": par.strip()
                 })
 
         elif tipo == "entrada":
@@ -94,38 +95,72 @@ def extract(texto):
                 resultado.append({
                     "tipo": tipo,
                     "categoria": cat.strip(),
-                    "valor": val.strip()
+                    "valor": val.strip(),
+                    
                 })
 
     return resultado
 
 
+# TIPOS de entrada 
+# Entrada de Dinheiro:
+# - Recorrente
+# --- Salario
+# --- Aposentadoria
+# --- Pensão
+# --- Credito
+# - Eventuais
+# --- Transferencias
+# --- Renda Extra ( Lucros, Vendas, Investimentos)
+
+# Saida de Dinheiro:
+# - Recorrente
+# --- Academia
+# --- Moradia
+# --- Transporte
+# --- Parcelamento
+# - Eventuais
+# --- Alimentacao
+# --- Farmacia
+# --- Compras ( Vestuario, Eletronicos, etc)
+
 # CADASTRO INICIAL 
 categorias_entrada = ["salario", "investimentos", "renda extra", "transferencias"]
-categorias_saida = ["farmacia", "alimentacao", "transporte", "moradia", "transferencias"]
-# data               = "05/01/2025"
-# saldo_a_vista      = float(input("Digite o seu saldo a vista | (dinheiro que tem em todas as contas para pagar a vista) : "))
-# qnt_cartao_credito = int(input("Digite a quantidade de cartoes de credito que possui : "))
-# saldo_credito      = 0
-# for i in range(qnt_cartao_credito):
-#     saldo_credito += float(input(f"Digite o limite disponivel do cartao de credito {i+1} : "))
+categorias_saida   = ["farmacia", "alimentacao", "transporte", "moradia", "transferencias"]
+data               = "05/01/2025"
+saldo_a_vista      = float(input("Digite o seu saldo a vista | (dinheiro que tem em todas as contas para pagar a vista) : "))
+qnt_cartao_credito = int(input("Digite a quantidade de cartoes de credito que possui : "))
+categoria_credito  = "credito"
+saldo_credito      = 0
+fatura_credito     = 0
+data_vencimento_fatura = []
+for i in range(qnt_cartao_credito):
+    saldo_credito  += float(input(f"Digite o limite disponivel do cartao de credito {i+1} : "))
+    fatura_credito += float(input(f"Se ja possui gastos no cartão de credito digite o valor da fatura do cartao {i+1} : "))
+    data_vencimento_fatura.append(input(f"Digite a data de vencimento da fatura do cartao {i+1} (dd/mm/aaaa) : "))
+
+# query 
+
 
 
 prompt_tarefas = f"""Voce é um gestor financeiro personalizado 
 Voce deve classificar as entradas e saidas de dinheiro do usuario
 
 voce primeiro deve identificar se o que o usuario mandou é entrada ou saida de dinheiro
-respondendo em xml <tipo>entrada</tipo> ou <tipo>saida</tipo> e com alguma das categorias de 
-entrada {categorias_entrada} <categoria_entrada>nome_categoria</categoria_entrada> 
+respondendo em xml <tipo>entrada</tipo> ou <tipo>saida</tipo> 
+
+Se for entrada classifique nas categorias de entrada : {categorias_entrada} 
+e me retorne o <categoria_entrada>nome_categoria</categoria_entrada> e o valor <valor>R$00,00</valor>
 
 se for saida de dinheiro classificar de acordo com as categorias {categorias_saida}
-e me retornar apenas <categoria_saida>nome_categoria</categoria_saida> 
-e valor <valor>R$00,00</valor>
-        
-se for entrada de dinheiro me retornar apenas <valor>R$00,00</valor>
+e me retornar <categoria_saida>nome_categoria</categoria_saida> 
+e valor <valor>R$00,00</valor> e quantidade de parcelas <parcelas>1</parcelas>
+caso não tenha parcelas, coloque 1
 
 """
 
+
+# PROMPT PARA CONTAS PARCELADAS
 
 
 response = go_gemini(prompt_tarefas,"depositei 100 reais")
@@ -169,6 +204,11 @@ print(response)
 print(xml_extract)
 print("--------------------------------------------------")
 response = go_gemini(prompt_tarefas,"gastei 50 reais na padaria e 304 de gasolina e fiz recebi 45 reais")
+xml_extract = extract(response)
+print(response)
+print(xml_extract)
+print("--------------------------------------------------")
+response = go_gemini(prompt_tarefas,"comprei uma calca no valor de 900 reais parcelado em 5 vez")
 xml_extract = extract(response)
 print(response)
 print(xml_extract)
